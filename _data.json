@@ -1,0 +1,14 @@
+{
+  "globals": {
+    "title": "Code and Cursor - custom software development",
+    "description": "We create technical solutions using React, Angular, Node, Ruby on Rails, MongoDB, and other tools."
+  },
+  "index": {
+    "title": "Code and Cursor - custom software development",
+    "description": "We create technical solutions using React, Angular, Node, Ruby on Rails, MongoDB, and other tools."
+  },
+  "about": {
+    "title": "About - Marlo Longley",
+    "description": "I’m awesome and so are you"
+  }
+}
