@@ -5,8 +5,14 @@
 body {
   //background-color: #fafbfb;
   color: #474747;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
+.body-wrap {
+  flex: 1;
+}
 
 // Responsive styles if needed
 // @include responsive($big-break) {
