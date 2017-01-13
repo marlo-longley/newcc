@@ -1,11 +1,7 @@
 {
-  "index": {
+  "globals": {
     "title": "Code and Cursor - Custom software development",
     "description": "Creative developers from Oakland, CA obsessed with solving hard problems in simple, effective ways.",
     "keywords": "React, Reactjs, Angular 2, Angular, Node, Nodejs, Ruby, Rails, Ruby on Rails, MongoDB, Bay Area, SF, San Francisco, Oakland, software, Wesleyan, web app, web application, analytics, dashboard, ecommerce"
-  },
-  "about": {
-    "title": "About - Marlo Longley",
-    "description": "I’m awesome and so are you"
   }
 }
