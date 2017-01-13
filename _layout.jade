@@ -2,7 +2,8 @@ doctype
 html
   head
     title= title
-    meta(name="description" content"#{ description }")
+    meta(name="description" content="#{ description }")
+    meta(name="keywords" content="#{ keywords }")
     //- TODO: serve normalize locally
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css")
     link(rel="stylesheet" href="css/main.css")
@@ -13,4 +14,6 @@ html
     //    a(class="#{ current.source == 'index' ? 'active' : '' }" href="/") Home
     //    a(class="#{ current.source == 'about' ? 'active' : '' }" href="/about") About
     //- individual page templates inserted below
-    != yield
+    .body-wrap
+       != yield
+    != partial("_footer")
