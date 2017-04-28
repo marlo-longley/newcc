@@ -2,6 +2,12 @@
 // Homepage
 //**
 
+.home-block .span2 {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+
+}
 
 .home-block:first-child {
   padding-top: 0;
@@ -10,20 +16,46 @@
   padding: 30px 0;
 }
 
-#home-block-1
- {
-   //background-image: url('../img/greyfloral_@2X.png');
-   width: 100%;
+#home-block-1 {
+  background-image: url('../img/topography.png');
+  width: 100%;
  }
 
+#home-block-1 h1 {
+    display: inline;
+    position: relative;
+    letter-spacing: -5px;
+}
 
-#home-block-2
- {
-  //background-image: url('../img/greyfloral_@2X.png');
-  width: 100%;
+#home-block-1  h1#code {
+  color: #d9534f;
+}
+
+#home-block-1  h1#cursor {
+  color: #4fd5d9;
+}
+
+#home-block-1  h1#code:after {
+    content: "Code";
+    position: absolute; left: 0px; top: -15px;
+    color: #474747;
 }
 
 
+#home-block-1  h1#cursor:after {
+  content: "Cursor";
+  position: absolute; left: 0px; top: -15px;
+  color: #474747;
+}
+
+#home-block-2 {
+  width: 100%;
+}
+
+img {
+  filter: grayscale(100%);
+
+}
 
 
 

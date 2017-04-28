@@ -20,6 +20,8 @@ blockquote {
   padding-left: 25px;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -46,7 +48,9 @@ h3 {
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
-  margin: 0;
+  margin: 30px 0 30px 0;
+  text-decoration: underline;
+  text-decoration-color: #4fd5d9;
 }
 
 h4 {
@@ -93,7 +97,11 @@ code {
 }
 
 a {
-  color: $primary-color;
+  //color: $primary-color;
+
+  color: #d9534f;
+  text-decoration-color: #4fd5d9;
+
 
   &:hover,
   &:focus {
